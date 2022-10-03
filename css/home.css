@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+
+}
+
+body{
+    
+    position: relative;
+    width:100%;
+    min-height:100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image:url('../img/gec.jpg');
+    background-size:auto;
+    background-repeat:no-repeat;
+    
+   
+    background-position: top;
+    font-family:'roboto', sans-serif;
+
+
+}
+
+.container{
+
+position: relative;
+width: 90%;
+height:87vh; 
+border: 5px solid #fff;
+display: flex;
+justify-content:center;
+
+align-items: center;
+
+}
+.logout{  
+    
+    position : absolute;
+    top:10px ;
+    right:-10px;
+    padding:10px 20px;
+    text-transform:capitalise;
+    font-size:16px;
+    border-radius: 4px;
+    
+    background: rgb(120, 178, 244);
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color:black;
+}
+.logout:hover{
+    color:rgb(6, 6, 197);
+
+}
+.login:hover{
+    color:rgb(6, 6, 197);
+
+}
+.login{
+    position: absolute;
+    top:10px;
+    right: 86px;
+    padding:10px 20px;
+    font-size:16px;
+    border-radius: 4px;
+    background: rgb(120, 178, 244);
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color:black;
+}
+
+h1{
+    
+    font-size: 50px;
+    font-style: bold;
+    padding: 5px 5px 5px 5px ;
+    background: rgb(177, 198, 242);
+    border-radius: 4px;
+    margin-top:420px;
+   color: rgb(2, 1, 72);
+
+
+
+}
